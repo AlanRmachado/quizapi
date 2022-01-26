@@ -34,7 +34,7 @@ Quiz.init(
       type: DataTypes.INTEGER,
       references: {
         model: Users,
-        key: "user"
+        key: "user_id"
       }
     }
   },

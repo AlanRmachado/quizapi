@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { format } from 'date-fns-tz';
 
 //types
-import TypeQuiz from "../interfaces/quiz"
+import TypeQuiz from "../@interfaces/quiz"
 import db from "../db/db"
 import QuizModel from '../models/quiz';
 import QuestionsModel from '../models/questions';

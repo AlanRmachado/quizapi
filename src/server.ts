@@ -17,10 +17,10 @@ routers(app);
 
 
 async function InitDataBase() {
+  await Users.sync();
   await Quiz.sync();
   await Questions.sync();
   await Answers.sync();
-  await Users.sync();
 }
 
 InitDataBase();
